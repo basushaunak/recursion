@@ -1,0 +1,31 @@
+h1{
+    margin-block-start: 5em;
+    text-align: center;
+    color: red;
+}
+
+h2{
+    margin-block: 1em;
+    text-align: center;
+    color:blue;
+}
+table,th,td{
+border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td{
+    padding-inline: 2em;
+}
+table{
+    display: block;
+    margin-inline: auto;
+    width:fit-content;
+}
+
+.output{
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
