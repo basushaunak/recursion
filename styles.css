@@ -29,3 +29,10 @@ table{
     font-size: 0.9rem;
     
 }
+
+.note{
+    color: red;
+    width: 50%;
+    width: fit-content;
+    margin-inline: auto;
+}
