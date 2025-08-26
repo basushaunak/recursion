@@ -18,7 +18,7 @@ function fibsRec(numberOfItems) {
     
     let seq = fibsRec(numberOfItems - 1);
     seq.push(seq[seq.length - 1] + seq[seq.length - 2]);
-    return seq.join(",");
+    return seq;
 }
 
 
